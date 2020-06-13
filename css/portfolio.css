@@ -1,0 +1,68 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  text-decoration-line: none;
+}
+.header-color-link a {
+  color: #757575;
+}
+.header-color-link .link:hover {
+  color: #2196f3;
+}
+.bluelogo {
+  color: #2196f3;
+  text-decoration-line: none;
+}
+.blacklogo {
+  color: black;
+  text-decoration-line: none;
+}
+/* list-style: none; убирает точки в списку */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration-line: none;
+}
+.site-nav a {
+  color: #212121;
+  text-decoration-line: none;
+}
+.site-nav .link:hover,
+.site-nav.link:focus {
+  color: #2196f3;
+}
+.site-logo .blacklogo:hover {
+  color: #2196f3;
+}
+
+.section-nav .button:hover {
+  text-decoration-line: none;
+  color: #2196f3;
+}
+
+h2 {
+  color: #212121;
+}
+footer {
+  background: #2f303a;
+}
+p {
+  color: #757575;
+}
+.address {
+  color: #ffffff;
+}
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+h3 {
+  color: #ffffff;
+}
+button {
+  background: #2196f3;
+  color: #ffffff;
+}
