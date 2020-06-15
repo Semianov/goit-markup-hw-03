@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,400; 1500 & display = swap"
       rel="stylesheet"
     />
@@ -15,7 +19,7 @@
     <header>
       <div class="site-logo">
         <nav>
-          <a href="/">
+          <a href="/" class="logotip">
             <span class="bluelogo">Web</span>
             <span class="blacklogo">Studio</span>
           </a>
@@ -25,31 +29,30 @@
             <li><a href="./index.html" class="link">Контакты</a></li>
           </ul>
         </nav>
-
-        <div class="header-color-link">
-          <a href="mailto:voodo1103@gmail.com" class="link"
-            >voodo1103@gmail.com</a
-          >
-          <a href="tel:+380969283454" class="link">+380969283454</a>
-        </div>
+      </div>
+      <div class="header-color-link">
+        <a href="mailto:voodo1103@gmail.com" class="link"
+          >voodo1103@gmail.com</a
+        >
+        <a href="tel:+380969283454" class="link">+380969283454</a>
       </div>
     </header>
 
     <!-- Герой -->
     <main>
-      <div class="heroi">
-        <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <button class="button-style">Заказать услугу</button>
-        </section>
-      </div>
+      <section class="heroi-color">
+        <h1 class="heroi">Эффективные решения для вашего бизнеса</h1>
+        <button class="button-style">Заказать услугу</button>
+      </section>
 
       <!-- Преимущества -->
       <div class="section-advantages">
         <section>
           <ul>
             <li>
-              <img src="./images1/Vector.png" alt="спутник" />
+              <div class="vector">
+                <img src="./images1/Vector.png" alt="спутник" />
+              </div>
               <h2>Внимание к деталям</h2>
               <p>
                 Идейные соображения, а также начало повседневной работы по
