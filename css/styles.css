@@ -13,15 +13,17 @@ body {
 .header-color-link a {
   color: #757575;
 }
-.header-color-link .link:hover {
+.header-color-link a:hover {
   color: #2196f3;
 }
+
 .link {
   color: #212121;
 }
 .link:hover {
   color: #2196f3;
 }
+
 h1,
 h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -32,7 +34,7 @@ a {
 ul {
   list-style: none;
 }
-.site-logo {
+.father-header {
   background: #ffffff;
 }
 .bluelogo {
@@ -140,22 +142,59 @@ footer {
 
 /* Хедер */
 header {
-  width: 1200px;
-
   background: #ffffff;
 }
 .logotip {
-  display: inline-block;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 215px;
-  margin-right: 85px;
+  width: 153px;
   font-size: 26px;
+  display: inline-block;
 }
-.studio li {
+.studio {
   display: flex;
+  margin-left: 85px;
+}
+.studio .item {
   margin-right: 50px;
 }
+.studio .item:last-child {
+  margin-right: 0px;
+}
+.studio .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-color-link {
+  display: flex;
+}
+
+.header-color-link {
+  margin-left: 331px;
+}
+.header-color-link .link-t {
+  display: block;
+  margin-left: 50px;
+}
+.nav-header {
+  display: flex;
+}
+.nav-header {
+  align-items: center;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+
+  width: 1200px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+/* Хедер конец */
 button {
   background: #2196f3;
   color: #ffffff;
