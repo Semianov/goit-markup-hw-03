@@ -33,7 +33,6 @@ ul {
   list-style: none;
 }
 .site-logo {
-  width: 1600px;
   background: #ffffff;
 }
 .bluelogo {
@@ -153,7 +152,10 @@ header {
   margin-right: 85px;
   font-size: 26px;
 }
-
+.studio li {
+  display: flex;
+  margin-right: 50px;
+}
 button {
   background: #2196f3;
   color: #ffffff;
