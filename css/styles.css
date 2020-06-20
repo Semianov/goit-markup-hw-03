@@ -7,7 +7,6 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #e5e5e5;
   color: #212121;
 }
 .header-color-link a {
@@ -24,10 +23,6 @@ body {
   color: #2196f3;
 }
 
-h1,
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
 a {
   text-decoration-line: none;
 }
@@ -44,80 +39,239 @@ ul {
   color: black;
 }
 
-.heroi {
-  width: 1600px;
-
+.heroi-color {
+  margin-bottom: 94px;
   background: rgba(47, 48, 58, 0.8);
 }
-
-.button-style a {
+.button-style {
   background: #2196f3;
   color: #ffffff;
 
   font-size: 16px;
+
+  margin-bottom: 200px;
 }
-.section-advantages h2 {
+/* Преимущества */
+.section-advantages .our-work {
+  background-color: #ffffff;
+}
+.vector {
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding-left: 102px;
+  padding-right: 102px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.clock {
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding-left: 101px;
+  padding-right: 101px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.planning {
+  width: 270px;
+  height: 120px;
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding-left: 100px;
+  padding-right: 115px;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  margin-bottom: 30px;
+}
+.modern-technologies {
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  margin-bottom: 30px;
+}
+.section-advantage h2 {
   color: #212121;
   width: 270px;
 
+  margin-bottom: 10px;
+
   font-size: 14px;
 }
+
 .section-advantages p {
   color: #332323;
   width: 270px;
 
   font-size: 14px;
 }
+
+/* Преимущества flex */
+.container-advantage {
+  display: flex;
+}
+
+/* Преимущества конец */
+
+/* Примеры работ */
 .our-work h2 {
   color: #212121;
   width: 376px;
-
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
+  margin-bottom: 50px;
+  margin-left: 612px;
+}
+
+.desktop {
+  padding-left: 83px;
+  padding-right: 82px;
+}
+.mobile {
+  padding-left: 86px;
+  padding-right: 85px;
+}
+.designer {
+  padding-left: 91px;
+  padding-right: 90px;
 }
 .our-work p {
   color: #ffffff;
-
+  background-color: rgba(47, 48, 58, 0.8);
   font-size: 14px;
+  width: 370px;
+  text-align: center;
+
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
+.our-work {
+  margin-bottom: 94px;
+}
+/* Примеры работ конец */
+
+/* Наша команда */
 .our-team {
   background: #f5f4fa;
-  width: 1600px;
+  margin-bottom: 94px;
 }
 .our-team h2 {
   width: 264px;
 
+  font-family: Roboto;
+  font-style: normal;
   font-size: 36px;
+  font-weight: bold;
+
+  margin-left: 668px;
+  margin-bottom: 50px;
+  margin-right: 668px;
+
+  text-align: center;
 
   color: #212121;
 }
 .our-team h3 {
   font-size: 16px;
+  width: 157px;
+
+  font-family: Roboto;
+  font-style: normal;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
 
   color: #212121;
 }
 .our-team p {
   font-size: 16px;
+  width: 130px;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: center;
+
+  margin-bottom: 30px;
+
   color: #757575;
+}
+
+/* Наша команда конец */
+
+/* Постояннные клиенты */
+.client {
+  width: 390px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+
+  margin-left: 606px;
+
+  text-align: center;
+}
+
+/* Постоянные клиенты конец */
+
+/* Футер */
+footer {
+  background: #2f303a;
+}
+.sign-up {
+  padding-left: 29px;
+  padding-right: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.site-logo {
+  display: inline-block;
+  margin-left: 214px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.kiev {
+  color: #ffffff;
+  margin-left: 214px;
+  margin-bottom: 9px;
+}
+
+.footer-mail {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.footer-tel {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing h2 {
+  font-size: 14px;
+  color: #ffffff;
+  width: 219px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .join h2 {
   color: #ffffff;
   font-weight: bold;
   font-size: 14px;
+  width: 145px;
+  font-family: Roboto;
+  font-style: normal;
 }
-.mailing h2 {
-  color: #ffffff;
-  font-size: 14px;
-}
-.address {
-  color: #ffffff;
-}
-.footer-mail {
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-tel {
-  color: rgba(255, 255, 255, 0.6);
-}
+/* Футер конец */
+/* Футер кнопки */
 .mailing input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -130,15 +284,8 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.sign-up {
-  font-size: 16px;
-  color: #ffffff;
-}
-footer {
-  background: #2f303a;
-}
-
-/* Блочный стиль */
+/* Футер кнопки конец */
+/* Блочный стиль/Flex */
 
 /* Хедер */
 header {
@@ -163,6 +310,8 @@ header {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  font-family: Cambria, serif;
 
   font-size: 14px;
   font-weight: 500;
@@ -214,7 +363,7 @@ button {
   margin-bottom: 200px;
 }
 .heroi {
-  font-family: Roboto;
+  font-family: Georgia, serif;
   width: 696px;
   height: 120px;
   font-weight: 900;
@@ -233,20 +382,6 @@ button {
 /* Преимущества */
 .section-advantages {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
   margin-left: 215px;
-}
-.section-advantages img {
-  display: inline-block;
-  border-radius: 4px;
-  background: #f5f4fa;
-  margin-bottom: 30px;
-}
-.vector 
-/* Футер */
-.sign-up {
-  padding-left: 29px;
-  padding-right: 62px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
