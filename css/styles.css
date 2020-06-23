@@ -51,7 +51,16 @@ ul {
 
   margin-bottom: 200px;
 }
+
 /* Преимущества */
+.section-advantages {
+  width: 1230px;
+  padding-left: 15px;
+  padding-left: 15px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .section-advantages .our-work {
   background-color: #ffffff;
 }
@@ -114,6 +123,13 @@ ul {
 .container-advantage {
   display: flex;
 }
+.container-advantage {
+  margin-right: 30px;
+  width: 270px;
+}
+.container-advantage:nth-child(4n) {
+  margin-right: 0px;
+}
 
 /* Преимущества конец */
 
@@ -121,7 +137,7 @@ ul {
 .our-work h2 {
   color: #212121;
   width: 376px;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -132,14 +148,21 @@ ul {
 .desktop {
   padding-left: 83px;
   padding-right: 82px;
+
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .mobile {
   padding-left: 86px;
   padding-right: 85px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .designer {
   padding-left: 91px;
   padding-right: 90px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .our-work p {
   color: #ffffff;
@@ -147,13 +170,18 @@ ul {
   font-size: 14px;
   width: 370px;
   text-align: center;
-
   padding-top: 27px;
   padding-bottom: 27px;
 }
 .our-work {
   margin-bottom: 94px;
+  width: 1230px;
 }
+
+.flex-work-examples {
+  display: flex;
+}
+
 /* Примеры работ конец */
 
 /* Наша команда */
@@ -164,7 +192,7 @@ ul {
 .our-team h2 {
   width: 264px;
 
-  font-family: Roboto;
+  font-family: 'Montserrat';
   font-style: normal;
   font-size: 36px;
   font-weight: bold;
@@ -181,7 +209,7 @@ ul {
   font-size: 16px;
   width: 157px;
 
-  font-family: Roboto;
+  font-family: 'Montserrat';
   font-style: normal;
 
   margin-top: 30px;
@@ -267,7 +295,7 @@ footer {
   font-weight: bold;
   font-size: 14px;
   width: 145px;
-  font-family: Roboto;
+  font-family: 'Montserrat';
   font-style: normal;
 }
 /* Футер конец */
