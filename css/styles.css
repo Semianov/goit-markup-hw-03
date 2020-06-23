@@ -181,7 +181,10 @@ ul {
 .flex-work-examples {
   display: flex;
 }
-
+.flex-work-examples li {
+  margin-right: 30px;
+  width: 370px;
+}
 /* Примеры работ конец */
 
 /* Наша команда */
@@ -189,6 +192,7 @@ ul {
   background: #f5f4fa;
   margin-bottom: 94px;
 }
+
 .our-team h2 {
   width: 264px;
 
@@ -228,7 +232,13 @@ ul {
 
   color: #757575;
 }
-
+.container-team {
+  display: flex;
+}
+.container-team li {
+  margin-right: 30px;
+  width: 270px;
+}
 /* Наша команда конец */
 
 /* Постояннные клиенты */
