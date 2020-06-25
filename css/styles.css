@@ -134,15 +134,17 @@ ul {
 /* Преимущества конец */
 
 /* Примеры работ */
-.our-work h2 {
+.title-our-work {
   color: #212121;
-  width: 376px;
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 50px;
-  margin-left: 612px;
+  margin-left: 400px;
+  margin-right: 400px;
+  width: 400px;
 }
 
 .desktop {
@@ -176,14 +178,21 @@ ul {
 .our-work {
   margin-bottom: 94px;
   width: 1230px;
+  margin-left: 215px;
 }
 
 .flex-work-examples {
   display: flex;
 }
+.flex-work-examples {
+  padding: 0px;
+  margin: 0px;
+}
 .flex-work-examples li {
   margin-right: 30px;
-  width: 370px;
+}
+.flex-work-examples img {
+  display: block;
 }
 /* Примеры работ конец */
 
@@ -191,19 +200,17 @@ ul {
 .our-team {
   background: #f5f4fa;
   margin-bottom: 94px;
+  margin-left: 215px;
 }
 
-.our-team h2 {
-  width: 264px;
-
+.title-our-team {
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 36px;
   font-weight: bold;
 
-  margin-left: 668px;
-  margin-bottom: 50px;
-  margin-right: 668px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 
   text-align: center;
 
@@ -211,7 +218,6 @@ ul {
 }
 .our-team h3 {
   font-size: 16px;
-  width: 157px;
 
   font-family: 'Montserrat';
   font-style: normal;
@@ -219,11 +225,12 @@ ul {
   margin-top: 30px;
   margin-bottom: 10px;
 
+  text-align: center;
   color: #212121;
 }
 .our-team p {
   font-size: 16px;
-  width: 130px;
+
   font-family: Roboto;
   font-style: normal;
   text-align: center;
@@ -239,6 +246,17 @@ ul {
   margin-right: 30px;
   width: 270px;
 }
+.container-team {
+  padding: 0px;
+  margin: 0px;
+}
+.container-team-li {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 24px;
+}
+
 /* Наша команда конец */
 
 /* Постояннные клиенты */
@@ -307,6 +325,9 @@ footer {
   width: 145px;
   font-family: 'Montserrat';
   font-style: normal;
+}
+.flex-sitelogo-join-mailing {
+  display: flex;
 }
 /* Футер конец */
 /* Футер кнопки */
