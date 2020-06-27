@@ -11,10 +11,7 @@ body {
 }
 .container {
   width: 1200px;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .link {
@@ -42,7 +39,6 @@ header {
 }
 .studio {
   display: flex;
-  margin-left: 85px;
 }
 .studio .item {
   margin-right: 50px;
@@ -62,9 +58,6 @@ header {
   display: flex;
 }
 
-.header-color-link {
-  margin-left: 331px;
-}
 .header-color-link .link-t {
   display: block;
   margin-left: 50px;
@@ -78,11 +71,6 @@ header {
 .father-header {
   display: flex;
   align-items: center;
-
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 .header-color-link a {
   color: #757575;
@@ -113,7 +101,6 @@ header {
 
 /* Преимущества */
 .section-advantages {
-  padding-left: 15px;
   padding-left: 15px;
 
   margin-left: 0px;
@@ -435,10 +422,4 @@ button {
 }
 .heroi-color {
   background: rgba(47, 48, 58, 0.8);
-}
-/* Преимущества */
-.section-advantages {
-  margin-top: 0px;
-  margin-bottom: 94px;
-  margin-left: 215px;
 }
