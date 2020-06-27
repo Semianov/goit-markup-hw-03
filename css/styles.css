@@ -9,11 +9,12 @@ html {
 body {
   color: #212121;
 }
-.header-color-link a {
-  color: #757575;
-}
-.header-color-link a:hover {
-  color: #2196f3;
+.container {
+  width: 1200px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -29,16 +30,74 @@ a {
 ul {
   list-style: none;
 }
-.father-header {
+
+/* Хедер */
+header {
   background: #ffffff;
 }
+.logotip {
+  width: 153px;
+  font-size: 26px;
+  display: inline-block;
+}
+.studio {
+  display: flex;
+  margin-left: 85px;
+}
+.studio .item {
+  margin-right: 50px;
+}
+.studio .item:last-child {
+  margin-right: 305px;
+}
+.studio .link {
+  display: block;
+
+  font-family: Cambria, serif;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-color-link {
+  display: flex;
+}
+
+.header-color-link {
+  margin-left: 331px;
+}
+.header-color-link .link-t {
+  display: block;
+  margin-left: 50px;
+}
+.nav-header {
+  display: flex;
+}
+.nav-header {
+  align-items: center;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.header-color-link a {
+  color: #757575;
+}
+.header-color-link a:hover {
+  color: #2196f3;
+}
+
 .bluelogo {
   color: #2196f3;
 }
 .blacklogo {
   color: black;
 }
-
+/* Хедер конец */
 .heroi-color {
   margin-bottom: 94px;
   background: rgba(47, 48, 58, 0.8);
@@ -54,7 +113,6 @@ ul {
 
 /* Преимущества */
 .section-advantages {
-  width: 1230px;
   padding-left: 15px;
   padding-left: 15px;
 
@@ -142,9 +200,7 @@ ul {
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 50px;
-  margin-left: 400px;
-  margin-right: 400px;
-  width: 400px;
+  text-align: center;
 }
 
 .desktop {
@@ -177,7 +233,7 @@ ul {
 }
 .our-work {
   margin-bottom: 94px;
-  width: 1230px;
+
   margin-left: 215px;
 }
 
@@ -346,63 +402,6 @@ footer {
 /* Футер кнопки конец */
 /* Блочный стиль/Flex */
 
-/* Хедер */
-header {
-  background: #ffffff;
-}
-.logotip {
-  width: 153px;
-  font-size: 26px;
-  display: inline-block;
-}
-.studio {
-  display: flex;
-  margin-left: 85px;
-}
-.studio .item {
-  margin-right: 50px;
-}
-.studio .item:last-child {
-  margin-right: 0px;
-}
-.studio .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  font-family: Cambria, serif;
-
-  font-size: 14px;
-  font-weight: 500;
-}
-.header-color-link {
-  display: flex;
-}
-
-.header-color-link {
-  margin-left: 331px;
-}
-.header-color-link .link-t {
-  display: block;
-  margin-left: 50px;
-}
-.nav-header {
-  display: flex;
-}
-.nav-header {
-  align-items: center;
-}
-.father-header {
-  display: flex;
-  align-items: center;
-
-  width: 1200px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 215px;
-  padding-right: 215px;
-}
-/* Хедер конец */
 button {
   background: #2196f3;
   color: #ffffff;
@@ -422,7 +421,6 @@ button {
   margin-bottom: 200px;
 }
 .heroi {
-  font-family: Georgia, serif;
   width: 696px;
   height: 120px;
   font-weight: 900;
