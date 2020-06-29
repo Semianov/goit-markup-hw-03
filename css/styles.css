@@ -12,6 +12,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -31,14 +33,20 @@ ul {
 /* Хедер */
 header {
   background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logotip {
   width: 153px;
   font-size: 26px;
   display: inline-block;
+  font-family: 'Raleway';
 }
 .studio {
   display: flex;
+}
+.studio {
+  font-family: 'Roboto';
 }
 .studio .item {
   margin-right: 50px;
@@ -49,8 +57,7 @@ header {
 .studio .link {
   display: block;
 
-  font-family: Cambria, serif;
-
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
 }
@@ -71,6 +78,7 @@ header {
 .father-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-color-link a {
   color: #757575;
@@ -86,20 +94,44 @@ header {
   color: black;
 }
 /* Хедер конец */
-.heroi-color {
-  margin-bottom: 94px;
-  background: rgba(47, 48, 58, 0.8);
-}
-.button-style {
-  background: #2196f3;
+
+/* Герой */
+
+.heroi {
+  width: 540px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
   color: #ffffff;
+  text-align: center;
 
-  font-size: 16px;
+  font-family: 'Roboto';
 
+  padding-top: 200px;
+
+  line-height: 60px;
+}
+.heroi-color {
+  background: rgba(47, 48, 58, 0.8);
+  padding-bottom: 94px;
+}
+
+.button-style {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
   margin-bottom: 200px;
 }
+/* Герой конец */
 
 /* Преимущества */
+.advantages {
+  padding-top: 94px;
+}
 .section-advantages {
   padding-left: 15px;
 
@@ -322,26 +354,30 @@ header {
 footer {
   background: #2f303a;
 }
-.sign-up {
-  padding-left: 29px;
-  padding-right: 62px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
-  color: #ffffff;
-}
+
 .site-logo {
   display: inline-block;
-  margin-left: 214px;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  font-size: 26px;
+  font-family: 'Raleway';
+  width: 153px;
+  padding-bottom: 20px;
 }
 .kiev {
   color: #ffffff;
-  margin-left: 214px;
-  margin-bottom: 9px;
 }
-
+.logo-kiev {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 69px;
+}
+.join {
+  padding-right: 155px;
+  padding-top: 60px;
+}
+.flex-join {
+  display: flex;
+}
 .footer-mail {
   display: block;
   color: rgba(255, 255, 255, 0.6);
@@ -351,7 +387,9 @@ footer {
   display: block;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.mailing {
+  padding-top: 60px;
+}
 .mailing h2 {
   font-size: 14px;
   color: #ffffff;
@@ -371,6 +409,15 @@ footer {
 }
 .flex-sitelogo-join-mailing {
   display: flex;
+}
+
+.sign-up {
+  padding-left: 29px;
+  padding-right: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
 }
 /* Футер конец */
 /* Футер кнопки */
@@ -394,32 +441,8 @@ button {
   color: #ffffff;
   font-size: 16px;
   width: 200px;
-  height: 50px;
+
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-/* Герой */
-.button-style {
-  padding: 10px 32px;
-
-  margin-left: 700px;
-  margin-right: 700px;
-  margin-bottom: 200px;
-}
-.heroi {
-  width: 696px;
-  height: 120px;
-  font-weight: 900;
-  font-size: 44px;
-  color: #ffffff;
-  text-align: center;
-  margin-left: 452px;
-  margin-right: 452px;
-  margin-top: 200px;
-  margin-bottom: 30px;
-  line-height: 60px;
-}
-.heroi-color {
-  background: rgba(47, 48, 58, 0.8);
 }
