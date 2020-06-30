@@ -107,25 +107,26 @@ header {
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
-  text-align: center;
+  
 
   font-family: 'Roboto';
-
-  padding-top: 200px;
 
   line-height: 60px;
 }
 .heroi-color {
   background: rgba(47, 48, 58, 0.8);
   padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.btn-style {
+  width: 200px;
+  height: 50px;
+  border: 1px solid transparent
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button-style {
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  margin-bottom: 200px;
-}
 /* Герой конец */
 
 /* Преимущества */
@@ -214,7 +215,7 @@ header {
 .title-our-work {
   color: #212121;
 
-  font-family: Montserrat;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -241,7 +242,7 @@ header {
   margin-top: auto;
   margin-bottom: auto;
 }
-.our-work p {
+.work-examples ul p {
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   font-size: 14px;
@@ -249,11 +250,6 @@ header {
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
-}
-.our-work {
-  margin-bottom: 94px;
-
-  margin-left: 215px;
 }
 
 .flex-work-examples {
@@ -272,10 +268,8 @@ header {
 /* Примеры работ конец */
 
 /* Наша команда */
-.our-team {
+.command {
   background: #f5f4fa;
-  margin-bottom: 94px;
-  margin-left: 215px;
 }
 
 .title-our-team {
@@ -291,7 +285,7 @@ header {
 
   color: #212121;
 }
-.our-team h3 {
+.command ul h3 {
   font-size: 16px;
 
   font-family: 'Montserrat';
@@ -303,7 +297,7 @@ header {
   text-align: center;
   color: #212121;
 }
-.our-team p {
+.command ul p {
   font-size: 16px;
 
   font-family: Roboto;
@@ -374,6 +368,7 @@ footer {
 .join {
   padding-right: 155px;
   padding-top: 60px;
+  padding-bottom: 20px;
 }
 .flex-join {
   display: flex;
@@ -409,6 +404,7 @@ footer {
 }
 .flex-sitelogo-join-mailing {
   display: flex;
+  justify-content: space-between;
 }
 
 .sign-up {
