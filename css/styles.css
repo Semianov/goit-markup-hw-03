@@ -8,6 +8,7 @@ html {
 }
 body {
   color: #212121;
+  font-family: "Roboto";
 }
 .container {
   width: 1200px;
@@ -132,15 +133,15 @@ header {
 /* Преимущества */
 .advantages {
   padding-top: 94px;
-}
-.section-advantages {
-  padding-left: 15px;
 
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.section-advantages .our-work {
+
+
+.section-advantages  {
   background-color: #ffffff;
+  
 }
 .vector {
   display: inline-block;
@@ -149,7 +150,7 @@ header {
   padding-right: 102px;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: 30px;
+  
 }
 .clock {
   display: inline-block;
@@ -158,34 +159,38 @@ header {
   padding-right: 101px;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: 30px;
+  
   border-radius: 4px;
 }
 .planning {
   width: 270px;
-  height: 120px;
+  height: 124px;
   display: inline-block;
   background-color: #f5f4fa;
   padding-left: 100px;
   padding-right: 115px;
   padding-top: 30px;
   padding-bottom: 29px;
-  margin-bottom: 30px;
+  
 }
 .modern-technologies {
+   width: 270px;
+  height: 124px;
   display: inline-block;
   background-color: #f5f4fa;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 33px;
   padding-bottom: 33px;
-  margin-bottom: 30px;
+  
 }
 .section-advantage h2 {
   color: #212121;
   width: 270px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
-  margin-bottom: 10px;
+  font-weight: bold;
 
   font-size: 14px;
 }
@@ -195,9 +200,10 @@ header {
   width: 270px;
 
   font-size: 14px;
+  font-weight: normal;
 }
 
-/* Преимущества flex */
+
 .container-advantage {
   display: flex;
 }
@@ -210,6 +216,10 @@ header {
 }
 
 /* Преимущества конец */
+
+
+
+
 
 /* Примеры работ */
 .title-our-work {
