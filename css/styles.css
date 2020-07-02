@@ -133,17 +133,19 @@ header {
 /* Преимущества */
 .advantages {
   padding-top: 94px;
+  padding-bottom: 94px;
 
   margin-left: auto;
   margin-right: auto;
 }
+.container-advantage ul 
+{padding-left: 0px;
+padding-right: 0px;}
 
 
-.section-advantages  {
-  background-color: #ffffff;
-  
-}
+
 .vector {
+  width: 270px;
   display: inline-block;
   background-color: #f5f4fa;
   padding-left: 102px;
@@ -153,6 +155,7 @@ header {
   
 }
 .clock {
+  width: 270px;
   display: inline-block;
   background-color: #f5f4fa;
   padding-left: 101px;
@@ -160,21 +163,10 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
   
-  border-radius: 4px;
+  
 }
 .planning {
   width: 270px;
-  height: 124px;
-  display: inline-block;
-  background-color: #f5f4fa;
-  padding-left: 100px;
-  padding-right: 115px;
-  padding-top: 30px;
-  padding-bottom: 29px;
-  
-}
-.modern-technologies {
-   width: 270px;
   height: 124px;
   display: inline-block;
   background-color: #f5f4fa;
@@ -184,36 +176,46 @@ header {
   padding-bottom: 33px;
   
 }
-.section-advantage h2 {
+.modern-technologies {
+   width: 270px;
+  height: 124px;
+  display: inline-block;
+  background-color: #f5f4fa;
+  padding-left: 100px;
+  padding-right: 115px;
+  padding-top: 33px;
+  padding-bottom: 29px;
+
+  
+}
+.container-advantage h3 {
   color: #212121;
   width: 270px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 
   font-weight: bold;
-
+  font-style: normal;
   font-size: 14px;
 }
 
-.section-advantages p {
-  color: #332323;
+.container-advantage p {
+  color: #757575;
   width: 270px;
-
+  font-style: normal;
   font-size: 14px;
   font-weight: normal;
 }
 
 
-.container-advantage {
+.container-advantage ul {
   display: flex;
 }
-.container-advantage {
+.container-advantage li {
   margin-right: 30px;
   width: 270px;
 }
-.container-advantage:nth-child(4n) {
-  margin-right: 0px;
-}
+
 
 /* Преимущества конец */
 
@@ -222,15 +224,20 @@ header {
 
 
 /* Примеры работ */
+.work-examples 
+{padding-bottom: 94px;}
+
 .title-our-work {
   color: #212121;
-
+  width: 376px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 50px;
   text-align: center;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .desktop {
@@ -280,6 +287,8 @@ header {
 /* Наша команда */
 .command {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .title-our-team {
@@ -287,8 +296,9 @@ header {
   font-style: normal;
   font-size: 36px;
   font-weight: bold;
-
-  padding-top: 94px;
+  width: 264px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
 
   text-align: center;
