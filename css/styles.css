@@ -8,7 +8,7 @@ html {
 }
 body {
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 .container {
   width: 1200px;
@@ -108,7 +108,6 @@ header {
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
-  
 
   font-family: 'Roboto';
 
@@ -124,8 +123,7 @@ header {
 .btn-style {
   width: 200px;
   height: 50px;
-  border: 1px solid transparent
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
 }
 
 /* Герой конец */
@@ -138,11 +136,10 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.container-advantage 
-{padding-left: 0px;
-padding-right: 0px;}
-
-
+.container-advantage {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .vector {
   width: 270px;
@@ -152,7 +149,6 @@ padding-right: 0px;}
   padding-right: 102px;
   padding-top: 25px;
   padding-bottom: 25px;
-  
 }
 .clock {
   width: 270px;
@@ -162,8 +158,6 @@ padding-right: 0px;}
   padding-right: 101px;
   padding-top: 25px;
   padding-bottom: 25px;
-  
-  
 }
 .planning {
   width: 270px;
@@ -174,10 +168,9 @@ padding-right: 0px;}
   padding-right: 100px;
   padding-top: 33px;
   padding-bottom: 33px;
-  
 }
 .modern-technologies {
-   width: 270px;
+  width: 270px;
   height: 124px;
   display: inline-block;
   background-color: #f5f4fa;
@@ -185,8 +178,6 @@ padding-right: 0px;}
   padding-right: 115px;
   padding-top: 33px;
   padding-bottom: 29px;
-
-  
 }
 .container-advantage h3 {
   color: #212121;
@@ -208,8 +199,7 @@ padding-right: 0px;}
   font-weight: normal;
 }
 
-
-.container-advantage  {
+.container-advantage {
   display: flex;
 }
 .container-advantage li {
@@ -217,16 +207,12 @@ padding-right: 0px;}
   width: 270px;
 }
 
-
 /* Преимущества конец */
 
-
-
-
-
 /* Примеры работ */
-.work-examples 
-{padding-bottom: 94px;}
+.work-examples {
+  padding-bottom: 94px;
+}
 
 .title-our-work {
   color: #212121;
@@ -295,15 +281,15 @@ padding-right: 0px;}
 }
 
 .title-our-team {
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
   font-style: normal;
   font-size: 36px;
   font-weight: bold;
   width: 264px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
-
+  margin-bottom: 50px;
+  line-height: 42px;
   text-align: center;
 
   color: #212121;
@@ -311,22 +297,25 @@ padding-right: 0px;}
 .command ul h3 {
   font-size: 16px;
 
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
   font-style: normal;
 
   margin-top: 30px;
-  margin-bottom: 10px;
-
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   color: #212121;
 }
 .command ul p {
   font-size: 16px;
 
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
   margin-bottom: 30px;
 
   color: #757575;
@@ -342,6 +331,7 @@ padding-right: 0px;}
   padding: 0px;
   margin: 0px;
 }
+
 .container-team-li {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -352,16 +342,16 @@ padding-right: 0px;}
 /* Наша команда конец */
 
 /* Постояннные клиенты */
+
 .client {
   width: 390px;
-
-  font-family: Roboto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-
-  margin-left: 606px;
-
+  line-height: 42px;
   text-align: center;
 }
 
@@ -412,7 +402,7 @@ footer {
   font-size: 14px;
   color: #ffffff;
   width: 219px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
 }
@@ -422,7 +412,7 @@ footer {
   font-weight: bold;
   font-size: 14px;
   width: 145px;
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
   font-style: normal;
 }
 .flex-sitelogo-join-mailing {
