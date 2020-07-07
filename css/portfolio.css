@@ -1,29 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #e5e5e5;
+  background: #ffffff;
   color: #212121;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.link {
+  color: #212121;
+}
+.link:hover {
+  color: #2196f3;
+}
+
+a {
   text-decoration-line: none;
+}
+ul {
+  list-style: none;
+}
+
+/* Хедер */
+header {
+  background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logotip {
+  width: 153px;
+  font-size: 26px;
+  display: inline-block;
+  font-family: 'Raleway';
+}
+.portfolio {
+  display: flex;
+  font-family: 'Roboto';
+}
+.portfolio .item {
+  margin-right: 50px;
+}
+.portfolio .item:last-child {
+  margin-right: 305px;
+}
+.portfolio .link {
+  display: block;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-color-link {
+  display: flex;
+}
+.header-color-link .link-t {
+  display: block;
+  margin-left: 50px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-color-link a {
   color: #757575;
 }
-.header-color-link .link:hover {
+.header-color-link a:hover {
   color: #2196f3;
 }
+
 .bluelogo {
   color: #2196f3;
-  text-decoration-line: none;
 }
 .blacklogo {
   color: black;
-  text-decoration-line: none;
 }
+/* Хедер конец */
+
 /* list-style: none; убирает точки в списку */
-ul {
-  list-style: none;
-}
-a {
-  text-decoration-line: none;
-}
+
 .site-nav a {
   color: #212121;
   text-decoration-line: none;

@@ -45,10 +45,9 @@ header {
 }
 .studio {
   display: flex;
-}
-.studio {
   font-family: 'Roboto';
 }
+
 .studio .item {
   margin-right: 50px;
 }
@@ -72,10 +71,9 @@ header {
 }
 .nav-header {
   display: flex;
-}
-.nav-header {
   align-items: center;
 }
+
 .father-header {
   display: flex;
   align-items: center;
@@ -150,6 +148,7 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
 .clock {
   width: 270px;
   display: inline-block;
@@ -204,7 +203,7 @@ header {
 }
 .container-advantage li {
   margin-right: 30px;
-  width: 270px;
+  /* width: 270px; */
 }
 
 /* Преимущества конец */
@@ -342,7 +341,10 @@ header {
 /* Наша команда конец */
 
 /* Постояннные клиенты */
-
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .client {
   width: 390px;
   margin-left: auto;
@@ -353,6 +355,23 @@ header {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-top: 50px;
+}
+.logo-company {
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
+}
+.logo-client {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Постоянные клиенты конец */
@@ -418,6 +437,7 @@ footer {
 .flex-sitelogo-join-mailing {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .sign-up {
