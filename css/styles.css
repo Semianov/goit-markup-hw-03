@@ -52,7 +52,7 @@ header {
   margin-right: 50px;
 }
 .studio .item:last-child {
-  margin-right: 305px;
+  margin-right: 0px;
 }
 .studio .link {
   display: block;
@@ -63,10 +63,9 @@ header {
 }
 .header-color-link {
   display: flex;
+  margin-left: auto;
 }
-
-.header-color-link .link-t {
-  display: block;
+.header-color-link .link + .link {
   margin-left: 50px;
 }
 .nav-header {
@@ -79,7 +78,11 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.header-color-link a {
+.header-color-link .link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   color: #757575;
 }
 .header-color-link a:hover {
@@ -138,46 +141,16 @@ header {
   padding-left: 0px;
   padding-right: 0px;
 }
+.picture-item {
+  width: 270px;
 
-.vector {
-  width: 270px;
-  display: inline-block;
   background-color: #f5f4fa;
-  padding-left: 102px;
-  padding-right: 102px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.clock {
-  width: 270px;
-  display: inline-block;
-  background-color: #f5f4fa;
-  padding-left: 101px;
-  padding-right: 101px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.planning {
-  width: 270px;
-  height: 124px;
-  display: inline-block;
-  background-color: #f5f4fa;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 33px;
-  padding-bottom: 33px;
-}
-.modern-technologies {
-  width: 270px;
-  height: 124px;
-  display: inline-block;
-  background-color: #f5f4fa;
-  padding-left: 100px;
-  padding-right: 115px;
-  padding-top: 33px;
-  padding-bottom: 29px;
-}
 .container-advantage h3 {
   color: #212121;
   width: 270px;
@@ -414,9 +387,7 @@ footer {
   display: block;
   color: rgba(255, 255, 255, 0.6);
 }
-.mailing {
-  padding-top: 60px;
-}
+
 .mailing h2 {
   font-size: 14px;
   color: #ffffff;

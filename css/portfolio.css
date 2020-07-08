@@ -36,6 +36,7 @@ header {
   background: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
 }
 .logotip {
   width: 153px;
@@ -51,7 +52,7 @@ header {
   margin-right: 50px;
 }
 .portfolio .item:last-child {
-  margin-right: 305px;
+  margin-right: 0px;
 }
 .portfolio .link {
   display: block;
@@ -62,11 +63,12 @@ header {
 }
 .header-color-link {
   display: flex;
+  margin-left: auto;
 }
-.header-color-link .link-t {
-  display: block;
+.header-color-link .link + .link {
   margin-left: 50px;
 }
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -96,47 +98,132 @@ header {
 }
 /* Хедер конец */
 
-/* list-style: none; убирает точки в списку */
-
-.site-nav a {
-  color: #212121;
+/* Герой */
+.heroi {
+  padding-top: 93px;
+}
+.section-nav .button-nav {
+  background: #f5f4fa;
+}
+.section-nav button:hover {
   text-decoration-line: none;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
 }
-.site-nav .link:hover,
-.site-nav.link:focus {
-  color: #2196f3;
+.section-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
-.site-logo .blacklogo:hover {
-  color: #2196f3;
+.button-nav {
+  margin-right: 8px;
+  border: 4px;
 }
 
-.section-nav .button:hover {
-  text-decoration-line: none;
-  color: #2196f3;
-}
+.button-text {
+  padding: 6px 22px;
 
-h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
   color: #212121;
 }
+.section-nav .button-nav:last-child {
+  margin-right: 0px;
+}
+/* Герой конец */
+
+/* Футер */
 footer {
   background: #2f303a;
 }
-p {
-  color: #757575;
+.flex-sitelogo-join-mailing {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
-.address {
+.site-logo {
+  display: inline-block;
+  font-size: 26px;
+  font-family: 'Raleway';
+  width: 153px;
+  padding-bottom: 20px;
+}
+.kiev {
   color: #ffffff;
+}
+.logo-kiev {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 69px;
+}
+.join {
+  padding-right: 155px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.flex-join {
+  display: flex;
 }
 .footer-mail {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 .footer-tel {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
 }
-h3 {
+.join h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  width: 145px;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.mailing h2 {
+  font-size: 14px;
+  color: #ffffff;
+  width: 219px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+}
+.sign-up {
+  padding-left: 29px;
+  padding-right: 62px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
   color: #ffffff;
 }
-button {
+.mailing input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background: #2f303a;
+}
+.mailing button {
   background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Футер конец */
+
+button {
   color: #ffffff;
 }
