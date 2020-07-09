@@ -42,6 +42,7 @@ header {
   font-size: 26px;
   display: inline-block;
   font-family: 'Raleway';
+  font-weight: bold;
 }
 .studio {
   display: flex;
@@ -309,6 +310,7 @@ header {
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 24px;
+  background-color: #ffffff;
 }
 
 /* Наша команда конец */
@@ -360,6 +362,7 @@ footer {
   font-family: 'Raleway';
   width: 153px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 .kiev {
   color: #ffffff;

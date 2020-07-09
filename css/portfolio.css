@@ -30,7 +30,11 @@ a {
 ul {
   list-style: none;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* Хедер */
 header {
   background: #ffffff;
@@ -43,6 +47,7 @@ header {
   font-size: 26px;
   display: inline-block;
   font-family: 'Raleway';
+  font-weight: bold;
 }
 .portfolio {
   display: flex;
@@ -98,9 +103,10 @@ header {
 }
 /* Хедер конец */
 
-/* Герой */
+/* Герой кнопки */
 .heroi {
   padding-top: 93px;
+  padding-bottom: 94px;
 }
 .section-nav .button-nav {
   background: #f5f4fa;
@@ -125,12 +131,14 @@ header {
 }
 .button-nav {
   margin-right: 8px;
-  border: 4px;
+  background: #f5f4fa;
 }
 
 .button-text {
   padding: 6px 22px;
 
+  border: none;
+  border-radius: 4px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -142,7 +150,60 @@ header {
 .section-nav .button-nav:last-child {
   margin-right: 0px;
 }
-/* Герой конец */
+/* Герой кнопки конец */
+
+/* Герой картинки */
+.heroi-picture {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.flex-img {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.brd {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* .card-img {
+  display: block;
+} */
+.flex-img .link {
+  display: block;
+}
+.title-section {
+  margin-bottom: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.paragraf {
+  margin-top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.flex-img:nth-child(3n) {
+  margin-right: 0px;
+}
+/* Герой картинки конец */
 
 /* Футер */
 footer {
@@ -159,6 +220,7 @@ footer {
   font-family: 'Raleway';
   width: 153px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 .kiev {
   color: #ffffff;
