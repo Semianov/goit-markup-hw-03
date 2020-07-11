@@ -35,6 +35,79 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* /* Хедер */
+header {
+  background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+.logotip {
+  width: 153px;
+  font-size: 26px;
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: bold;
+}
+.portfolio {
+  display: flex;
+  font-family: 'Roboto';
+}
+.portfolio .item {
+  margin-right: 50px;
+}
+.portfolio .item:last-child {
+  margin-right: 0px;
+}
+.portfolio .link {
+  display: block;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-color-link {
+  display: flex;
+  margin-left: auto;
+
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.header-color-link .link + .link {
+  margin-left: 50px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.father-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-color-link a {
+  color: #757575;
+}
+.header-color-link a:hover {
+  color: #2196f3;
+}
+
+.bluelogo {
+  color: #2196f3;
+}
+.blacklogo {
+  color: black;
+}
 /* Хедер */
 header {
   background: #ffffff;
@@ -69,6 +142,13 @@ header {
 .header-color-link {
   display: flex;
   margin-left: auto;
+
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .header-color-link .link + .link {
   margin-left: 50px;
@@ -103,7 +183,8 @@ header {
 }
 /* Хедер конец */
 
-/* Герой кнопки */
+/* Герой кнопки  */
+
 .heroi {
   padding-top: 93px;
   padding-bottom: 94px;
@@ -174,9 +255,7 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* .card-img {
-  display: block;
-} */
+
 .flex-img .link {
   display: block;
 }
@@ -230,6 +309,9 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   padding-right: 69px;
+}
+.whitelogo {
+  color: #ffffff;
 }
 .join {
   padding-right: 155px;

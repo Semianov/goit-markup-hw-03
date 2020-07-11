@@ -101,7 +101,7 @@ header {
 /* Герой */
 
 .heroi {
-  width: 540px;
+  width: 650px;
 
   margin-left: auto;
   margin-right: auto;
@@ -177,7 +177,7 @@ header {
 }
 .container-advantage li {
   margin-right: 30px;
-  /* width: 270px; */
+  width: 270px;
 }
 
 /* Преимущества конец */
@@ -422,6 +422,9 @@ footer {
   font-size: 16px;
   color: #ffffff;
 }
+.whitelogo {
+  color: #ffffff;
+}
 /* Футер конец */
 /* Футер кнопки */
 .mailing input {
@@ -449,3 +452,5 @@ button {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+/* Портфолио */
