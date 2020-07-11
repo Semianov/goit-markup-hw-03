@@ -100,7 +100,7 @@ header {
 
 /* Герой */
 
-.heroi {
+.heroi-title {
   width: 650px;
 
   margin-left: auto;
@@ -122,7 +122,7 @@ header {
   padding-bottom: 200px;
   text-align: center;
 }
-.btn-style {
+.btn-studio {
   width: 200px;
   height: 50px;
   border: 1px solid transparent;
@@ -414,7 +414,7 @@ footer {
   align-items: baseline;
 }
 
-.sign-up {
+.btn-footer {
   padding-left: 29px;
   padding-right: 62px;
   padding-top: 10px;
@@ -491,6 +491,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* Хедер */
 header {
   background: #ffffff;
@@ -609,6 +610,22 @@ header {
   line-height: 26px;
   text-align: center;
   color: #212121;
+  background: #f5f4fa;
+}
+.one {
+  width: 73px;
+}
+.two {
+  width: 128px;
+}
+.three {
+  width: 145px;
+}
+.four {
+  width: 103px;
+}
+.five {
+  width: 130px;
 }
 .section-nav .button-nav:last-child {
   margin-right: 0px;
@@ -725,7 +742,7 @@ footer {
   font-style: normal;
   font-weight: bold;
 }
-.sign-up {
+.btn-footer {
   padding-left: 29px;
   padding-right: 62px;
   padding-top: 10px;
